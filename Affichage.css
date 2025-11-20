@@ -116,5 +116,5 @@ details {
 }
 
 details:hover:not([open]) {
-	background-color: rgba(128, 128, 128, 0.676);
+	background-color: rgba(128, 128, 128, 0.125);
 }
