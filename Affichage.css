@@ -125,17 +125,3 @@ details:hover:not([open]) {
 	user-select: none;
 	-webkit-user-select: none;
 }
-
-.details::details-content{
-	display: block;
-	margin-inline: 2rem;
-	block-size: 0;
-	transition-property: block-size,content-visibility;
-	transition-duration: 0.5s;
-	transition-behavior: allow-discrete;
-}
-
-.details[open]::details-content {
-	block-size: auto;
-	block-size: calc-size(auto);
-}
