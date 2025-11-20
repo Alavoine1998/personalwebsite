@@ -107,3 +107,10 @@ a:hover {
 	margin: 0px;
 	padding: 1em;
 }
+
+#details {
+	border: 1px solid #888;
+	border-radius: 10px;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+}
